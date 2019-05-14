@@ -1,19 +1,23 @@
 <template>
 <v-app dark>
   <div id="app">
-    <img class="edo-logo" src="./assets/Eto-bottom-tp.png">
-    <Home msg="Welcome to Eto."/>
+    <router-view/>
   </div>
 </v-app>
 </template>
 
 <script>
 import Home from './components/Home.vue'
+import SignIn from './components/signin.vue'
+import SignUp from './components/signup.vue'
 
 export default {
   name: 'app',
   components: {
-    Home
+    /* eslint-disable */
+    Home,
+    SignIn,
+    SignUp
   }
 }
 </script>
@@ -32,17 +36,4 @@ export default {
   position: relative;
 }
 
-.edo-logo{
-  margin-top: 300px;
-  width: 200px; 
-  height: 200px;
-}
-
-@media (max-width: 768px){
-  .edo-logo{
-  margin-top: 150px;
-  width: 170px; 
-  height: 190px;
-  }
-}
 </style>
