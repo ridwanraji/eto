@@ -1,29 +1,15 @@
-# eto
+# ETO
 
-## Project setup
+## Project Description
 ```
-npm install
-```
+When it comes to job application, there are a few problems that job applicants face:
+1. People with so many skills often have to switch things up in their resume to fit the job description every time they are applying for jobs. After some time, it's hard to keep track of the jobs you've applied for and how many changes you've made to the informations you submitted when applying.
+2. Some job posting get deleted as soon as the posting is closed. And in the case you get a call for an interview at a job you applied for but can't even remember when you applied for it or what the job posting was asking for or how to prepare for the interview.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+This kind of problems is what ETO is striving to solve. ETO helps track, save and allow you to manage the details of all the jobs you have applied for.
 ```
 
-### Run your tests
+### Use Cases
 ```
-npm run test
+- To be filled
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
