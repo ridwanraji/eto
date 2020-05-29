@@ -15,8 +15,12 @@ interview.
 This kind of problems is what ETO is striving to solve. ETO helps track, save and 
 allow you to manage the details of all the jobs you have applied for.
 ```
+## UI/UX Design
+```
+<a href="https://www.figma.com/file/bjH1ZnLqrd9Y417Px99vxn/ETO.app?node-id=0%3A1"> FIGMA BOARD</a>
+```
 
-### Use Cases
+## Use Cases
 ```
 - To be filled
 ```
