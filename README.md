@@ -16,9 +16,9 @@ This kind of problems is what ETO is striving to solve. ETO helps track, save an
 allow you to manage the details of all the jobs you have applied for.
 ```
 ## UI/UX Design
-```
+---------------
 [Click Me](https://www.figma.com/file/bjH1ZnLqrd9Y417Px99vxn/ETO.app?node-id=0%3A1)
-```
+---------------
 
 ## Use Cases
 ```
