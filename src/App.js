@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./../assets/Eto-bottom-tp.png"
-import "./../styles/App.css";
+import logo from "./assets/Eto-bottom-tp.png"
+import "./styles/App.css";
 
 function App() {
   return (
