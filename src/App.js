@@ -1,14 +1,19 @@
 import React from "react";
-import logo from "./assets/Eto-bottom-tp.png"
 import "./styles/App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={SignUp} />
+      </div>
+    </Router>
   );
 }
 
